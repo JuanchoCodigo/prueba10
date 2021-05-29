@@ -1,0 +1,153 @@
+body {
+
+    background-color:#232323;
+}
+
+#contenedor	{
+	width: 90%;
+	height: 350px;
+	background: #eeee;
+	margin: auto;
+    position: relative;
+    top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: block;
+    text-decoration: none;
+    
+	
+}
+
+body   {
+
+    background-color:#eeee;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#contenedor	{
+	width: 90%;
+	height: 350px;
+	background: #eeee;
+	margin: auto;
+    position: relative;
+    top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	
+}
+
+@media screen and (max-width: 900px)  {
+    #contenedor {
+        width: 90%;
+        height: 350px;
+        
+    }
+}
+
+@media screen and (max-width: 700px)  {
+    #contenedor {
+        width: 100%;
+        height: 250px;
+        
+    }
+}
+#logo	{
+
+	width: 60%;
+	height: 190px;
+	background: #787877;
+    position: relative;
+    bottom: 20px;
+
+    display: block;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 900px)  {
+    #logo {
+        width: 50%;
+        height: 170px;
+        
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    #logo {
+        width: 50%;
+        height: 150px;
+        
+    }
+}
+
+@media screen and (max-width: 500px)  {
+    #logo {
+        width: 50%;
+        height: 130px;
+        
+    }
+}
+
+@media screen and (max-width: 300px)  {
+    #logo {
+        width: 50%;
+        height: 90px;
+        
+    }
+}
+
+@media screen and (max-width: 150px)  {
+    #logo {
+        width: 60%;
+        height: 70px;
+        
+    }
+}
+#boton	{
+	width: 35%;
+	height: 50px;
+	background: #232323;
+    float: left;	
+}
+
+@media screen and (max-width: 900px)  {
+    #boton  {
+        width: 35%;
+        
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    #boton  {
+        width: 35%;
+
+    }
+}
+
+@media screen and (max-width: 500px)  {
+    #boton  {
+        width: 30%;
+
+    }
+}
+
+@media screen and (max-width: 300px)  {
+    #boton {
+        width: 30%;
+        height: 30px;
+
+    }
+}
+
+@media screen and (max-width: 150px)  {
+    #boton  {
+        width: 40%;
+        
+    }
+}
